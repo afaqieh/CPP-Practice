@@ -9,8 +9,8 @@ set(CMAKE_BUILD_TYPE "Debug")
 
 # Set source files
 set(SRC
-    src/main.cpp
     src/tests.cpp
+    src/vector.cpp
 )
 
 # Create executable using the specified source files

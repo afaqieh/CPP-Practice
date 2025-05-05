@@ -1,6 +1,5 @@
 #include <iostream>
-
-#include "Vector.h" // Your implementation of vector
+#include "vector.hh" // Your implementation of vector
 
 int main(int argc, char *argv[])
 {
@@ -58,7 +57,7 @@ int main(int argc, char *argv[])
     std::cout << "vCopy contains value: " << vCopy.at(0) << "\n" << std::endl;
 
     // 6) Check Move Constructor
-    Vector vMove = move(v3);
+    Vector vMove = std::move(v3);
     std::cout << "vMove has size " << vMove.size() << "\n" << std::endl;
     std::cout << "vMove contains value : " << vMove.at(0) << "\n" << std::endl;
 
